@@ -13,7 +13,7 @@
 - ### [08 - Number Theory](08%20-%20Number%20Theory)
 - ### [09 - Geometry](09%20-%20Geometry)
 - ### [10 - Miscellaneous](10%20-%20Miscellaneous)
-    - #### [10.01 - Binary Search](10.01%20-%20Binary%20Search)
+    - #### [10.01 - Binary Search](10%20-%20Miscellaneous/10.01%20-%20Binary%20Search)
         Algorithm used for finding a specific value/element in an ordered interval range.
 
 ## Additional References
