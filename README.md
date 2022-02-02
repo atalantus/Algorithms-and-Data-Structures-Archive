@@ -10,6 +10,7 @@
 - ### [07 - Dynamic Programming](07%20-%20Dynamic%20Programming)
 - ### [08 - Number Theory](08%20-%20Number%20Theory)
 - ### [09 - Geometry](09%20-%20Geometry)
+- ### [10 - Miscellaneous](10%20-%20Miscellaneous)
 
 ## Additional References
 - https://cp-algorithms.com

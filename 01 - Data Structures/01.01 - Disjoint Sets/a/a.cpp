@@ -11,18 +11,22 @@ vector<int> set_size;
 /**
  * Find the root of the set of a node and apply path compression.
  */
-int find_set(int x) {
+int find_set(int x)
+{
     // find root
     int r = x;
-    while (true) {
+    while (true)
+    {
         int p = parent[r];
-        if (p == -1) break;
+        if (p == -1)
+            break;
         r = p;
     }
 
     // path compression
     int c = x;
-    while (c != r) {
+    while (c != r)
+    {
         int p = parent[c];
         parent[c] = r;
         c = p;
@@ -34,27 +38,31 @@ int find_set(int x) {
 /**
  * Unite two sets via comparing the sets' sizes.
  */
-void union_set(int x, int y) {
+void union_set(int x, int y)
+{
     int rx = find_set(x);
     int ry = find_set(y);
 
-    if (rx == ry) return;
+    if (rx == ry)
+        return;
 
     if (set_size[rx] > set_size[ry])
         swap(rx, ry);
-    
+
     parent[rx] = ry;
     set_size[ry] += set_size[rx];
 }
 
-void solve() {
+void solve()
+{
     int a, b;
     cin >> a >> b;
 
     parent = vector<int>(a, -1);
     set_size = vector<int>(a, 1);
 
-    for (int i = 0; i < b; ++i) {
+    for (int i = 0; i < b; ++i)
+    {
         int d, e;
         cin >> d >> e;
 
@@ -67,7 +75,8 @@ void solve() {
         cout << "No" << endl;
 }
 
-int main() {
+int main()
+{
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.precision(numeric_limits<double>::max_digits10);
@@ -75,7 +84,8 @@ int main() {
     int t;
     cin >> t;
 
-    for (int i = 1; i <= t; i++) {
+    for (int i = 1; i <= t; i++)
+    {
         cout << "Case #" << i << ": ";
         solve();
     }

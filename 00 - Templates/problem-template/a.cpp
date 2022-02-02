@@ -2,11 +2,13 @@
 
 using namespace std;
 
-void solve() {
+void solve()
+{
     cout << 0 << endl;
 }
 
-int main() {
+int main()
+{
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.precision(numeric_limits<double>::max_digits10);
@@ -14,7 +16,8 @@ int main() {
     int t;
     cin >> t;
 
-    for (int i = 1; i <= t; i++) {
+    for (int i = 1; i <= t; i++)
+    {
         cout << "Case #" << i << ": ";
         solve();
     }
