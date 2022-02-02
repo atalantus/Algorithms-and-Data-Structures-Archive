@@ -13,4 +13,5 @@
 - ### [10 - Miscellaneous](10%20-%20Miscellaneous)
 
 ## Additional References
-- https://cp-algorithms.com
+- [cp-algorithms.com](https://cp-algorithms.com)
+- [CLRS](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf)
