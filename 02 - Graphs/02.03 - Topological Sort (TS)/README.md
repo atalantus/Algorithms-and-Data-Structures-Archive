@@ -1,5 +1,5 @@
 # 02.03 - Topological Sort (TS)
-Topological Sort (TS) is the problem of finding a topological order on a directed graph where any predecessor of a node is ordered before any of it's postdecessors.
+Graph traversal algorithm on a directed graph resulting in a topological order where any predecessor of a node is ordered before any of it's postdecessors.
 
 This means that for every edge `e` going from vertex `u` to vertex `v`. `u` comes before `v` in the ordering.
 
