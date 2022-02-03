@@ -12,6 +12,7 @@
 - ### [02.05 - Prim's Algorithm](02.05%20-%20Prim's%20Algorithm)
     Constructs a MST of a connected graph by repeatedly adding the shortest edge to the subgraph which connects a node already in the subgraph to a node outside of it until we have a MST. (`O(|E| + |V| log |V|)`)
 - ### [02.06 - Dijkstra's Algorithm](02.06%20-%20Dijkstra's%20Algorithm)
+    Finds the Single Source Shortest Path (SSSP) between two nodes on any graph with non-negative edge weights. (`O(|E| + |V| log |V|)`)
 - ### [02.07 - Bellman-Ford Algorithm](02.07%20-%20Bellman-Ford%20Algorithm)
 - ### [02.08 - Floyd-Warshall Algorithm](02.08%20-%20Floyd-Warshall%20Algorithm)
 
@@ -31,5 +32,16 @@ If a graph has negative edge weights we can find a MST by first adding a constan
 A **Maxmimum** Spanning Tree can be obtained by firstly inverting all edge weights of the graph and then finding the MST.
 
 Since a MST is a tree it will always contain exactly `|V| - 1` edges.
+
+## Shortest Path Problem
+There are multiple different Shortest Path Problems: **Single Pair Shortest Path** (SPSP), **Single Source Shortest Path** (SSSP), **All Pairs Shortest Path** (APSP).
+
+There are different algorithmic approaches depending on properties of the graph and the path problem.
+
+For Example the SSSP on directed, acyclic graph can simply be found via Topological Sort and traversing nodes in topological order updating the distances to the source node. This takes `O(|V| + |E|)` time.
+
+Even simpler is the SSSP on an unweighted graph which can simply be found via BST in also `O(|V| + |E|)` time.
+
+Theoretically speaking all optimal SPSP algorithms also solve SSSP for the given source node within the same asymptotic time bound.
 
 ## Longest Path Problem
