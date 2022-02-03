@@ -9,8 +9,8 @@
         Depth First Search (DFS) is a graph traversal algorithm starting at a node and exploring one branch as far as possible before backtracking.
     - #### [02.02 - Breadth First Search (BFS)](02%20-%20Graphs/02.02%20-%20Breadth%20First%20Search%20(BFS))
         Breadth First Search (BFS) is a graph traversal algorithm starting at a node and explores all nodes at the present depth before moving on to the nodes at the next depth level.
-    - #### [02.03 - Topological Sort](02%20-%20Graphs/02.03%20-%20Topological%20Sort)
-        Topological Sort is the problem of finding a topological order on a directed graph where any predecessor of a node is ordered before any of it's postdecessors.
+    - #### [02.03 - Topological Sort (TS)](02%20-%20Graphs/02.03%20-%20Topological%20Sort%20(TS))
+        Topological Sort (TS) is the problem of finding a topological order on a directed graph where any predecessor of a node is ordered before any of it's postdecessors.
     - #### [02.04 - Kruskal's Algorithm](02%20-%20Graphs/02.04%20-%20Kruskal's%20Algorithm)
     - #### [02.05 - Prim's Algorithm](02%20-%20Graphs/02.05%20-%20Prim's%20Algorithm)
     - #### [02.06 - Dijkstra's Algorithm](02%20-%20Graphs/02.06%20-%20Dijkstra's%20Algorithm)

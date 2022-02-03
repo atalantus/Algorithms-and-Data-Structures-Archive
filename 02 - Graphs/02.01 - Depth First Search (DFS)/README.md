@@ -1,6 +1,9 @@
 # 02.01 - Depth First Search (DFS)
 Depth First Search (DFS) is a graph traversal algorithm starting at a node and exploring one branch as far as possible before backtracking.
 
+## Time Complexity
+Each vertex is visited at most once and for each vertex each successor is considered at most once. => Time Complexity: `O(|V| + |E|)`
+
 ## Algorithm
 ```c++
 void dfs(int n, int s, vector<vector<int>> adj_list)

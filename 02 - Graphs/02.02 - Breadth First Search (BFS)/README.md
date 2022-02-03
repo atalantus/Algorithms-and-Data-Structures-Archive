@@ -7,6 +7,8 @@ Thus BFS can be easily used to solve the SSSP problem on unweighted graphs.
 
 One can also find other additional properties of the shortest path by storing their value along inside the `parent` list.
 
+## Time Complexity
+Each vertex is visited at most once and for each vertex each successor is considered at most once. => Time Complexity: `O(|V| + |E|)`
 
 ## Algorithm
 ```c++

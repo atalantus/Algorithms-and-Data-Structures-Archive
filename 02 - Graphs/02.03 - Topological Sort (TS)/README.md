@@ -1,11 +1,14 @@
-# 02.03 - Topological Sort
-Topological Sort is the problem of finding a topological order on a directed graph where any predecessor of a node is ordered before any of it's postdecessors.
+# 02.03 - Topological Sort (TS)
+Topological Sort (TS) is the problem of finding a topological order on a directed graph where any predecessor of a node is ordered before any of it's postdecessors.
 
 This means that for every edge `e` going from vertex `u` to vertex `v`. `u` comes before `v` in the ordering.
 
 A topological order on a graph exists **iff** the graph is acyclic.
 
 This algorithm can be used to find if a graph is cyclic.
+
+## Time Complexity
+Each vertex is visited at most once and for each vertex each successor is considered at most once. => Time Complexity: `O(|V| + |E|)`
 
 ## Algorithm
 1. For every node, store the number of predecessors.

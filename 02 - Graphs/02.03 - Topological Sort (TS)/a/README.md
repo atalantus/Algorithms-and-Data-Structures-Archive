@@ -1,4 +1,4 @@
-# 02.03 - Topological Sort - Problem A
+# 02.03 - Topological Sort (TS) - Problem A
 
 ## Description
 Given a graph with directed and undirected edges. Direct every undirected edge such that the resulting graph is acyclic.
