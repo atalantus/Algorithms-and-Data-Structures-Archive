@@ -1,10 +1,13 @@
 # 02.06 - Dijkstra's Algorithm
-Finds the Single Source Shortest Path (SSSP) between two nodes on any graph with non-negative edge weights.
+Finds the Single Source Shortest Path (SSSP) from one node to all other nodes on any graph with non-negative edge weights.
 
 ## Time Complexity
 Time Complexity: `O(|E| + |V| log |V|)`
 
 ## Algorithm
+Iteratively explore the node with the current minimal distance to the source node updating it's successors distances
+if the distance through this node is smaller than the already found distance. 
+
 ```c++
 void dijkstra(int n, int s, vector<vector<pair<int, int>>> adj_list)
 {

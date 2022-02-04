@@ -16,9 +16,11 @@
     - #### [02.05 - Prim's Algorithm](02%20-%20Graphs/02.05%20-%20Prim's%20Algorithm)
         Constructs a MST of a connected graph by repeatedly adding the shortest edge to the subgraph which connects a node already in the subgraph to a node outside of it until we have a MST. `O(|E| + |V| log |V|)`
     - #### [02.06 - Dijkstra's Algorithm](02%20-%20Graphs/02.06%20-%20Dijkstra's%20Algorithm)
-        Finds the Single Source Shortest Path (SSSP) between two nodes on any graph with non-negative edge weights. `O(|E| + |V| log |V|)`
+        Finds the Single Source Shortest Path (SSSP) from one node to all other nodes on any graph with non-negative edge weights. `O(|E| + |V| log |V|)`
     - #### [02.07 - Bellman-Ford Algorithm](02%20-%20Graphs/02.07%20-%20Bellman-Ford%20Algorithm)
+        Finds the Single Source Shortest Path (SSSP) from one node to all other nodes on any graph. `O(|V||E|)`
     - #### [02.08 - Floyd-Warshall Algorithm](02%20-%20Graphs/02.08%20-%20Floyd-Warshall%20Algorithm)
+        Finds the All Pairs Shortest Path (APSP) for any pair of nodes on any graph. `O(|V|^3)`
 - ### [03 - Trees](03%20-%20Trees)
 - ### [04 - Maximum Flow](04%20-%20Maximum%20Flow)
 - ### [05 - Brute Force](05%20-%20Brute%20Force)
