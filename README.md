@@ -24,6 +24,7 @@
 - ### [03 - Trees](03%20-%20Trees)
 - ### [04 - Maximum Flow](04%20-%20Maximum%20Flow)
 - ### [05 - Brute Force](05%20-%20Brute%20Force)
+    Systematically iterate all solution candidates until one satisfies the solution requirements.
 - ### [06 - Greedy](06%20-%20Greedy)
 - ### [07 - Dynamic Programming](07%20-%20Dynamic%20Programming)
 - ### [08 - Number Theory](08%20-%20Number%20Theory)
