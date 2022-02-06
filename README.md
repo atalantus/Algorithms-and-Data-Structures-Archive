@@ -24,9 +24,11 @@
 - ### [03 - Trees](03%20-%20Trees)
 - ### [04 - Maximum Flow](04%20-%20Maximum%20Flow)
 - ### [05 - Brute Force](05%20-%20Brute%20Force)
-    Systematically iterate all solution candidates until one satisfies the solution requirements.
+    Technique of systematically iterating over all solution candidates until one satisfies the solution requirements.
 - ### [06 - Greedy](06%20-%20Greedy)
+    Technique of approximating the optimal solution to a problem by choosing optimal solutions for its subproblems.
 - ### [07 - Dynamic Programming](07%20-%20Dynamic%20Programming)
+    Technique of solving a problem by recursively dividing it into subproblems. After solving a subproblem it's solution is cached for later reuse in case the same subproblem comes up again.
 - ### [08 - Number Theory](08%20-%20Number%20Theory)
 - ### [09 - Geometry](09%20-%20Geometry)
 - ### [10 - Miscellaneous](10%20-%20Miscellaneous)
