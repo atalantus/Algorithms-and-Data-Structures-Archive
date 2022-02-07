@@ -12,7 +12,7 @@ We build a two-dimensional table with `n+1` rows and `W+1` columns. (so we have 
 The entry at row `i` and column `j` (`[i, j]`) then represents the maximum value that can be obtained by only taking items 
 from `1` to `i` into account while not exceeding the weight limit `j`.
 
-We know fill the table.
+We now fill the table.
 
 First we can fill the `0`-th row with `0`. (max value with no items is `0` for any weight limit)
 
