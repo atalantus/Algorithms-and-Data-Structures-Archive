@@ -30,9 +30,10 @@
 - ### [07 - Dynamic Programming](07%20-%20Dynamic%20Programming)
     Technique of solving a problem by recursively dividing it into subproblems. After solving a subproblem it's solution is cached for later reuse in case the same subproblem comes up again.
 - ### [08 - Number Theory](08%20-%20Number%20Theory)
-- ### [09 - Geometry](09%20-%20Geometry)
-- ### [10 - Miscellaneous](10%20-%20Miscellaneous)
-    - #### [10.01 - Binary Search](10%20-%20Miscellaneous/10.01%20-%20Binary%20Search)
+- ### [09 - Euclidean Geometry](09%20-%20Euclidean%20Geometry)
+- ### [10 - Projective Geometry](09%20-%20Projective%20Geometry)
+- ### [11 - Miscellaneous](11%20-%20Miscellaneous)
+    - #### [11.01 - Binary Search](11%20-%20Miscellaneous/11.01%20-%20Binary%20Search)
         Algorithm used for finding a specific value/element in an ordered interval range. `O(log n)`
 
 ## Additional References

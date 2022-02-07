@@ -1,4 +1,4 @@
-# 10.01 - Binary Search - Problem B
+# 11.01 - Binary Search - Problem B
 
 ## Description
 [Problem Description.]
