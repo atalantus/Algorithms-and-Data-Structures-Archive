@@ -1,1 +1,0 @@
-# 05 - Brute Force - N Queen Problem
