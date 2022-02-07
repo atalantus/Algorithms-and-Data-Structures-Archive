@@ -16,7 +16,7 @@ These simply differ in the way the solution for the original problem gets comput
 The top-down strategy works similar to a normal recursive approach were we recursively solve subproblems but also maintain a table
 and check first if we have already computed its solution.
 
-The bottom-up strategy instead starts of by solving the smallest possible subproblem and iteratively going to the next "higher" problem until we reach the original problem.
+The bottom-up strategy instead starts of by solving the smallest possible subproblem and iteratively going to the next "higher" problem storing all solutions in a table until we reach the original problem.
 
 Generally the top-down approach works best when the subproblem space of an original problem is sparse meaning that only few of all possibil subproblems will get explored.
 
