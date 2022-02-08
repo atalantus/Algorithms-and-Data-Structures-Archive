@@ -30,7 +30,9 @@ void dfs(int n, int s, vector<vector<int>> adj_list)
 
         for(int u: adj_list[v]) 
             // add neighbour vertex to stack
-            st.push(u);
+            // if not already explored
+            if (ord[u] == -1)
+                st.push(u);
     }
 }
 ```
