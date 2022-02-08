@@ -6,12 +6,13 @@ Two general solution methods exist:
 1. **Ford-Fulkerson Method:** Start with a valid flow and successively increase it (such that its still a valid flow) until it saturates a cut => the flow is maximal
 2. **Push-Relabel Method:** Start with a preflow (non-valid flow) that saturates a cut and then successively adapt the preflow (such that it still saturates a cut) until its a valid flow => the flow is maximal
 
-Different problems can in fact be formulated as a maximum flow problem such as maximal bipartite matchings or the Baseball elimination problem.
+Different problems can in fact be formulated as a maximum flow problem such as maximal bipartite matchings, the baseball elimination problem or project selection.
 
 ## Contents
 - ### [04.01 - Ford-Fulkerson Method](04.01%20-%20Ford-Fulkerson%20Method)
     Finds the maximum flow by repeatedly augmenting an initial flow along augmenting paths until no more augmenting paths exist.
 - ### [04.02 - Push-Relabel Method](04.02%20-%20Push-Relabel%20Method)
+    Finds the maximum flow by successively adapting a preflow that saturates a cut until this preflow is a valid flow.
 
 ## Flow Network
 Directed Graph where each edge has a non-negative capacity and there are two designated vertices, the **source** `s` and the **target** `t`.

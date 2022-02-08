@@ -23,6 +23,10 @@
         Finds the All Pairs Shortest Path (APSP) for any pair of nodes on any graph. `O(|V|^3)`
 - ### [03 - Trees](03%20-%20Trees)
 - ### [04 - Maximum Flow](04%20-%20Maximum%20Flow)
+    - #### [04.01 - Ford-Fulkerson Method](04%20-%20Maximum%20Flow/04.01%20-%20Ford-Fulkerson%20Method)
+        Finds the maximum flow by repeatedly augmenting an initial flow along augmenting paths until no more augmenting paths exist.
+    - #### [04.02 - Push-Relabel Method](04%20-%20Maximum%20Flow/04.02%20-%20Push-Relabel%20Method)
+        Finds the maximum flow by successively adapting a preflow that saturates a cut until this preflow is a valid flow.
 - ### [05 - Brute Force](05%20-%20Brute%20Force)
     Technique of systematically iterating over all solution candidates until one satisfies the solution requirements.
 - ### [06 - Greedy](06%20-%20Greedy)
