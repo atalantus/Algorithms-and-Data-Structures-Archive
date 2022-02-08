@@ -22,6 +22,10 @@
     - #### [02.08 - Floyd-Warshall Algorithm](02%20-%20Graphs/02.08%20-%20Floyd-Warshall%20Algorithm)
         Finds the All Pairs Shortest Path (APSP) for any pair of nodes on any graph. `O(|V|^3)`
 - ### [03 - Trees](03%20-%20Trees)
+    - ### [03.01 - Trie](03.01%20-%20Trie)
+        Data Structure used to efficiently store and maintain a set of strings.
+    - ### [03.02 - Segment Tree](03.02%20-%20Segment%20Tree)
+    - ### [03.03 - Lowest Common Ancestor](03.03%20-%20Lowest%20Common%20Ancestor)
 - ### [04 - Maximum Flow](04%20-%20Maximum%20Flow)
     - #### [04.01 - Ford-Fulkerson Method](04%20-%20Maximum%20Flow/04.01%20-%20Ford-Fulkerson%20Method)
         Finds the maximum flow by repeatedly augmenting an initial flow along augmenting paths until no more augmenting paths exist.
