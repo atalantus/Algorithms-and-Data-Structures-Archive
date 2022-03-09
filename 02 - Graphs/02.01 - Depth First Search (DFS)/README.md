@@ -19,8 +19,8 @@ void dfs(int n, int s, vector<vector<int>> adj_list)
 
     while (!st.empty())
     {
-        int v = s.top();
-        s.pop();
+        int v = st.top();
+        st.pop();
 
         if (ord[v] != -1)
             // vertex already explored
