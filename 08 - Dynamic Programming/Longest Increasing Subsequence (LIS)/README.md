@@ -1,4 +1,4 @@
-# 07 - Dynamic Programming - Longest Increasing Subsequence (LIS)
+# 08 - Dynamic Programming - Longest Increasing Subsequence (LIS)
 
 ## Problem
 Given a sequence of numbers `S` with length `n`. Find a subsequence of increasing numbers such that its length is maximal.

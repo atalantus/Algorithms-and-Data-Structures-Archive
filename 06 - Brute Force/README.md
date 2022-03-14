@@ -1,4 +1,4 @@
-# 05 - Brute Force
+# 06 - Brute Force
 Technique of systematically iterating over all solution candidates until one satisfies the solution requirements.
 
 ## Application

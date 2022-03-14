@@ -1,4 +1,4 @@
-# 07 - Dynamic Programming - Longest Common Subsequence (LCS)
+# 08 - Dynamic Programming - Longest Common Subsequence (LCS)
 
 ## Problem
 Given two sequences `X` with length `m` and `Y` with length `n`. Find a subsequence that lies both within `X` and `Y` such that its length is maximal.

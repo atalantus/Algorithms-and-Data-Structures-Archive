@@ -1,4 +1,4 @@
-# 06 - Greedy - 0-1 Knapsack Problem
+# 07 - Greedy - 0-1 Knapsack Problem
 
 ## Problem
 Having `n` different items each with its own value and weight. 

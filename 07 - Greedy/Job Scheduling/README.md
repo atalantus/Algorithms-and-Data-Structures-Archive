@@ -1,4 +1,4 @@
-# 06 - Greedy - Job Scheduling
+# 07 - Greedy - Job Scheduling
 
 ## Problem
 Given `n` jobs with different running times and `m` processors.

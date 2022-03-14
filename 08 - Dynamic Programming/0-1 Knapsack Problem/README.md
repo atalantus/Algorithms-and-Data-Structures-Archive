@@ -1,4 +1,4 @@
-# 07 - Dynamic Programming - 0-1 Knapsack Problem
+# 08 - Dynamic Programming - 0-1 Knapsack Problem
 
 ## Problem
 Having `n` different items each with its own value and weight. 

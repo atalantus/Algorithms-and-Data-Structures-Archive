@@ -1,4 +1,4 @@
-# 06 - Greedy
+# 07 - Greedy
 Technique of approximating the optimal solution to a problem by iteratively choosing locally optimal solutions for its subproblems.
 
 Greedy and Dynamic Programming algorithms work somewhat similar in the sense that both techniques divide a problem into suproblems.

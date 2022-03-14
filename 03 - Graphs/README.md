@@ -1,21 +1,21 @@
-# 02 - Graphs
+# 03 - Graphs
 
 ## Contents
-- ### [02.01 - Depth First Search (DFS)](02.01%20-%20Depth%20First%20Search%20(DFS))
+- ### [03.01 - Depth First Search (DFS)](03.01%20-%20Depth%20First%20Search%20(DFS))
     Graph traversal algorithm starting at a node and exploring one branch as far as possible before backtracking. `O(|V| + |E|)`
-- ### [02.02 - Breadth First Search (BFS)](02.02%20-%20Breadth%20First%20Search%20(BFS))
+- ### [03.02 - Breadth First Search (BFS)](03.02%20-%20Breadth%20First%20Search%20(BFS))
     Graph traversal algorithm starting at a node and explores all nodes at the present depth before moving on to the nodes at the next depth level. `O(|V| + |E|)`
-- ### [02.03 - Topological Sort (TS)](02.03%20-%20Topological%20Sort%20(TS))
+- ### [03.03 - Topological Sort (TS)](03.03%20-%20Topological%20Sort%20(TS))
     Graph traversal algorithm on a directed graph resulting in a topological order where any predecessor of a node is ordered before any of it's postdecessors. `O(|V| + |E|)`
-- ### [02.04 - Kruskal's Algorithm](02.04%20-%20Kruskal's%20Algorithm)
+- ### [03.04 - Kruskal's Algorithm](03.04%20-%20Kruskal's%20Algorithm)
     Constructs a MST of a connected graph by repeatedly adding the next shortest edge not already contained in the subgraph until we have a MST. `O(|E| log |E|)`
-- ### [02.05 - Prim's Algorithm](02.05%20-%20Prim's%20Algorithm)
+- ### [03.05 - Prim's Algorithm](03.05%20-%20Prim's%20Algorithm)
     Constructs a MST of a connected graph by repeatedly adding the shortest edge to the subgraph which connects a node already in the subgraph to a node outside of it until we have a MST. `O(|E| + |V| log |V|)`
-- ### [02.06 - Dijkstra's Algorithm](02.06%20-%20Dijkstra's%20Algorithm)
+- ### [03.06 - Dijkstra's Algorithm](03.06%20-%20Dijkstra's%20Algorithm)
     Finds the Single Source Shortest Path (SSSP) from one node to all other nodes on any graph with non-negative edge weights. `O(|E| + |V| log |V|)`
-- ### [02.07 - Bellman-Ford Algorithm](02.07%20-%20Bellman-Ford%20Algorithm)
+- ### [03.07 - Bellman-Ford Algorithm](03.07%20-%20Bellman-Ford%20Algorithm)
     Finds the Single Source Shortest Path (SSSP) from one node to all other nodes on any graph. `O(|V||E|)`
-- ### [02.08 - Floyd-Warshall Algorithm](02.08%20-%20Floyd-Warshall%20Algorithm)
+- ### [03.08 - Floyd-Warshall Algorithm](03.08%20-%20Floyd-Warshall%20Algorithm)
     Finds the All Pairs Shortest Path (APSP) for any pair of nodes on any graph. `O(|V|^3)`
 
 ## Graph Representations

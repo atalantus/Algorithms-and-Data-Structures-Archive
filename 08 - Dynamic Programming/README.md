@@ -1,4 +1,4 @@
-# 07 - Dynamic Programming
+# 08 - Dynamic Programming
 Technique of solving a problem by recursively dividing it into subproblems. After solving a subproblem it's solution is cached for later reuse in case the same subproblem comes up again.
 
 ## Application

@@ -1,1 +1,1 @@
-# 05 - Brute Force - N Queens Problem
+# 06 - Brute Force - N Queens Problem

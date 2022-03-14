@@ -1,4 +1,4 @@
-# 04 - Maximum Flow
+# 05 - Maximum Flow
 Problem of finding a maximum flow inside a flow network.
 
 Two general solution methods exist:
@@ -9,9 +9,9 @@ Two general solution methods exist:
 Different problems can in fact be formulated as a maximum flow problem such as maximal bipartite matchings, the baseball elimination problem or project selection.
 
 ## Contents
-- ### [04.01 - Ford-Fulkerson Method](04.01%20-%20Ford-Fulkerson%20Method)
+- ### [05.01 - Ford-Fulkerson Method](05.01%20-%20Ford-Fulkerson%20Method)
     Finds the maximum flow by repeatedly augmenting an initial flow along augmenting paths until no more augmenting paths exist.
-- ### [04.02 - Push-Relabel Method](04.02%20-%20Push-Relabel%20Method)
+- ### [05.02 - Push-Relabel Method](05.02%20-%20Push-Relabel%20Method)
     Finds the maximum flow by successively adapting a preflow that saturates a cut until this preflow is a valid flow.
 
 ## Flow Network
