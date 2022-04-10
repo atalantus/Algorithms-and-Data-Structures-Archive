@@ -41,7 +41,7 @@ It has the same vertices as the original flow network but different edges.
 
 For any two pairs of vertices `u,v` there exists a **residual edge** `(u,v)` in the residual graph with its capacity defined by:
 - If `(u,v)∈E`: `c(u,v) - f(u,v)` (allows to send more flow along this edge until its saturated)
-- If `(v,e)∈E`: `f(v,u)` (allows to send flow back / undo flow)
+- If `(v,u)∈E`: `f(v,u)` (allows to send flow back / undo flow)
 - Otherwise: `0`
 
 The residual network is then the network over all those edges with capacity greater than `0`.
