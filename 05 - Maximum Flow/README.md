@@ -76,7 +76,7 @@ A cut is **saturated** if the flow of all edges going from `S` to `T` is equal t
 ## Max-Flow Min-Cut Theorem
 For a given flow network the maximum flow value is equal to the capacity of the minimum cut.
 
-This intuitively makes sense as the minimum cut defines the "bottleneck" of the total flow going from `s` to `t`.
+This intuitively makes sense as the minimum cut defines the "bottleneck" of the total possible flow going from `s` to `t`.
 
 This means the following statements are equivalent:
 - The flow of a network is maximal
