@@ -1,7 +1,7 @@
 # 05.01 - Ford-Fulkerson Method
 Finds the maximum flow by repeatedly augmenting an initial flow along augmenting paths until no more augmenting paths exist.
 
-The Ford-Fulkerson Method starts with an initial valid flow being `0` for every edge and successively augments this flow (maintaining it as a valid flow) by finding an augmented path until no more augmented path could be found.
+The Ford-Fulkerson Method starts with an initial valid flow being `0` for every edge and successively augments this flow (maintaining it as a valid flow) by finding an augmented path until no more augmented paths could be found.
 
 ## Dinic's Algorithm
 Dinic's Algorithm uses the **blocking flow** of the shortest path**s** (**Note: Plural!**) by number of edges to augment the flow.
