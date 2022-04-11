@@ -60,6 +60,8 @@ The **residual capacity** of such a path is defined as the minimum capacity of a
 
 The flow of an augmenting path is defined as its residual capacity on any edge along the path and `0` on all others.
 
+A flow is maximum **iff** there are no augmenting paths.
+
 ## Cut
 A Cut of a flow network is a partition of vertices into two subsets `S` and `T` such that `s∈S` and `t∈T`.
 
