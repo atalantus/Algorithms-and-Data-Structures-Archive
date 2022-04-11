@@ -7,7 +7,7 @@ the incoming flow of that node.
 A node that has more incoming flow than outgoing flow is called **active**.
 
 Additionally the Push-Relabel Method defines a **labelling** function `l` that associates each node with an non-negative integer (height/level) and is **valid**
-if the source `s` has a label of `|V|`, the target `t` has a label of `0` and for any residual edge `(u,v)`, `l(u) ≤ l(v) + 1`. (Intuitively if we have a residual edge from `u` to `v` it can only go down - seeing the labelling as height of a node - by at most one.)
+if the source `s` has a label of `|V|`, the target `t` has a label of `0` and for any residual edge `(u,v)`, `l(u) ≤ l(v) + 1`. (Intuitively if we have a residual edge from `u` to `v` it can only go down - seeing the labelling as height of a node - by at most one meaning every edge going down steeper has to be saturated.)
 
 We will later use this to define that we can only **push** flow downhill. (Note that the flow can be positive going uphill but we will only push flow downhill.)
 
